@@ -1,5 +1,6 @@
 html{
      background: radial-gradient(circle,#313244,#181825);
+     filter: blur(1);
 }
 #head {
     background-image: url(images/header.webp);
@@ -25,7 +26,10 @@ html{
     background-color: black;
     color: antiquewhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;  
+    overflow: hidden;
 }
+
 #act {
     border: 1px solid red;
 }
