@@ -1,0 +1,41 @@
+html{
+     background: radial-gradient(circle,#313244,#181825);
+}
+#head {
+    background-image: url(images/header.webp);
+    border-radius: 10px;
+    padding: 1vh;          
+}
+
+#head ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#head ul li ul{
+    display:flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+#about{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#act {
+    border: 1px solid red;
+}
+#act ul{
+    display: flex;
+    justify-content: center;   
+    list-style: none;
+}
+#act ul img {
+    width: 60%;            
+    height: auto;
+    border-radius: 10px;
+}
